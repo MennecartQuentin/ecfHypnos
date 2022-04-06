@@ -40,7 +40,7 @@
                         <div class="home-title">
                         
                             <h1 id="home-title-hotel">À L'HÔTEL</h1>
-                            <h1 id="home-title-les-ziags">HYPNOS</h1>
+                            <h1 id="home-title-^hypnos">HYPNOS</h1>
                         </div>
                         <table>
                             <tr>
