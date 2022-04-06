@@ -1,0 +1,96 @@
+/*/////////////////
+    LOGIN PAGE
+/////////////////*/
+
+.content.login {
+    background: url(/content/img/backgrounds/just-fab-san-francisco-headquarters-3.jpg) fixed no-repeat center;
+    background-size: cover;
+    height: 100%;
+    margin: -10px 0;
+}
+
+/* Changing login link image in primary nav (highlight) */
+#nav-primary__login:before {
+    content: url(/content/img/icons/avatar83_32px_white.png);
+}
+
+
+
+/* LOGIN WITH ... SOCIAL BUTTONS */
+
+.login__social-buttons {
+    left: 400px;
+    position: relative;
+    width: 290px;
+}
+
+.login__social-buttons .container {
+    position: relative;
+    opacity: 0;
+    top: 100px;
+    -webkit-transition: top 1s ease-out, opacity 1s ease 0.3s;
+    -moz-transition: top 1s ease-out, opacity 1s ease 0.3s;
+    -o-transition: top 1s ease-out, opacity 1s ease 0.3s;
+    transition: top 1s ease-out, opacity 1s ease 0.3s;
+}
+
+.login__social-buttons .container.load {
+    opacity: 1;
+    top: 60px;
+}
+
+/* SIGN IN AND SIGN UP FORMS */
+
+.login__forms {
+    left: 350px;
+    margin: auto;
+    position: relative;
+    top: -30px;
+    width: 350px;
+}
+
+.login__forms .container {
+    background: #f5f5f5;
+    color: #393b45;
+    left: 50px;
+    margin: 10px;
+    opacity: 0;
+    padding: 1px 20px 20px 20px;
+    position: relative;
+    -webkit-transition: left 1s ease-out, opacity 1s ease 0.3s;
+    -moz-transition: left 1s ease-out, opacity 1s ease 0.3s;
+    -o-transition: left 1s ease-out, opacity 1s ease 0.3s;
+    transition: left 1s ease-out, opacity 1s ease 0.3s;
+    width: 300px;
+}
+
+/* Container animation on load */
+.login__forms .container.load {
+    left: 0;
+    opacity: 1;
+}
+
+.login .container form {
+    width: 100%;
+}
+
+#login__form-signin .input-container input {
+    width: 266px;
+}
+
+#login__form-signup input {
+    width: 290px;
+}
+
+.login .container form a {
+    font-size: 12px;
+    width: 100%;
+}
+
+#login__form-signin button {
+    left: 182px;
+}
+
+#login__form-signup button {
+    left: 210px;
+}
