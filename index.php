@@ -8,18 +8,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hôtel Hypnos | Accueil</title>
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-          
-    
+
         <!-- STYLES -->
         <!-- CSS -->
         <link href="content/css/main.css" rel="stylesheet" type="text/css" media="screen" />
         <link href="content/css/home.css" rel="stylesheet" type="text/css" media="screen" />
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico" />
-       
+        
 
         <script type="text/javascript" src="content/js/jquery-1.12.1.min.js"></script>
         <script type="text/javascript" src="content/js/modernizr-3.3.1.min.js"></script>
@@ -40,7 +34,7 @@
                         <div class="home-title">
                         
                             <h1 id="home-title-hotel">À L'HÔTEL</h1>
-                            <h1 id="home-title-^hypnos">HYPNOS</h1>
+                            <h1 id="home-title-hypnos">HYPNOS</h1>
                         </div>
                         <table>
                             <tr>
@@ -50,7 +44,7 @@
                                         <p>
                                             Les Hôtels Hypnos propose 12 chambres, dans 7 établissement à la décoration luxueuse et aux équipements haut de gamme.
                                         </p>
-                                        <a href="/bedrooms"><button class="button-submit">Voir nos chambres</button></a>
+                                        <a href="/bedrooms.php"><button class="button-submit">Voir nos chambres</button></a>
                                     </div>
                                 </td>
                                 <td>
@@ -68,7 +62,7 @@
                                         <p>
                                             Les Hôtels Hypnos propose des tarifs attractifs, à partir de 150€ la nuit, en plein coeur des villes.
                                         </p>
-                                        <a href="/booking/stay"><button class="button-submit">Consulter nos tarifs</button></a>
+                                        <a href="/booking/stay.php"><button class="button-submit">Consulter nos tarifs</button></a>
                                     </div>
                                 </td>
                             </tr>

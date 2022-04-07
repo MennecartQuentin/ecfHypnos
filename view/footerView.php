@@ -7,7 +7,7 @@
     </div>
     <nav>
         <ul>
-            <li><a href="/ecfHypnos/index.php">Accueil</a></li>
+            <li><a href="/index.php">Accueil</a></li>
             <li><a href="/about.php">&Agrave; propos de nous</a></li>
             <li><a href="/sitemap.php">Plan du site</a></li>
             <li><a href="/contact.php">Contact</a></li>

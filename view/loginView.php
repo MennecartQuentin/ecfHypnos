@@ -1,10 +1,12 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 
 <html lang="fr">
     <head>
 
         <!-- META -->
         <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-signin-scope" content="profile email">
 
         <title>Hôtel Hypnos | Connectez-vous</title>
@@ -17,12 +19,7 @@
         <link href="/content/js/jquery-ui-1.11.4/jquery-ui.structure.min.css" rel="stylesheet" type="text/css" media="screen" />
         <link href="/content/css/main.css" rel="stylesheet" type="text/css" media="screen" />
         <link href="/content/css/login.css" rel="stylesheet" type="text/css" media="screen" />
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico" />
-        <!--[if IE]>
-            <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-        <![endif]-->
-
+       
         <!-- SCRIPTS -->
 
         <!-- Libraries -->

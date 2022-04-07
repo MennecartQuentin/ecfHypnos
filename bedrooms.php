@@ -5,23 +5,14 @@
 
         <!-- META -->
         <meta charset="utf-8" />
-
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hôtel Hypnos | Nos chambres</title>
-
-        <!--[if lt IE 9]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
 
         <!-- STYLES -->
         <!-- CSS -->
         <link href="content/css/main.css" rel="stylesheet" type="text/css" media="screen" />
         <link href="content/css/bedrooms.css" rel="stylesheet" type="text/css" media="screen" />
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico" />
-        <!--[if IE]>
-            <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-        <![endif]-->
-
         <!-- SCRIPTS -->
         <!-- Libraries -->
         <script type="text/javascript" src="content/js/jquery-1.12.1.min.js"></script>
@@ -43,15 +34,15 @@
                             <img src="/content/img/icons/list_24px_fb9e08.png" alt="list" />
                             <h3>Un choix élargi</h3>
                             <p>
-                                L'hôtel Hypnos offre toute une gamme de chambres décorées, simples, doubles, twin, avec ou sans salle de bains.
+                                L'hôtel Hypnos offre toute une gamme de chambres luxueuse, simples, doubles, twin, avec ou sans salle de bains.
                             </p>
-                            <a href="/bedrooms#gallery"><button>Voir les chambres</button></a>
+                            <a href="/content/img/bedrooms"><button>Voir les chambres</button></a>
                         </div>
                         <div class="bedrooms-content-card">
                             <img src="/content/img/icons/label_24px_green.png" alt="label" />
                             <h3>Des tarifs attractifs</h3>
                             <p>
-                                Attractifs, nos tarifs commencent à 100€ la nuit, en plein coeur des villes!
+                                Attractifs, nos tarifs commencent à partir de 100€ la nuit, en plein coeur des plus belles villes de France!
                             </p>
                             <a href="/bedrooms#pricing"><button>Consulter nos tarifs</button></a>
                         </div>

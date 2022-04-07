@@ -34,7 +34,7 @@ function updateBedroomsInfo() {
         $sql = "UPDATE `room` SET `room_type` = '$type', `room_bathroom` = '$bathroom', `room_avaible` = '$status' WHERE `room_roomnbr` = '$number'";
 
         if (mysqli_query($db,$sql)) {
-            header("location: /admin/bedrooms");
+            header("location: /admin/bedrooms.php");
         } else {
             echo "Error updating record.";
         }

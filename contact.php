@@ -5,21 +5,16 @@
 
         <!-- META -->
         <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
         <title>Hôtel Hypnos | Contactez-nous</title>
-        <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-
+        
         <!-- STYLES -->
         <!-- CSS -->
         <link href="/content/css/main.css" rel="stylesheet" type="text/css" media="screen" />
         <link href="/content/css/contact.css" rel="stylesheet" type="text/css" media="screen" />
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <!--[if IE]>
-        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <![endif]-->
-
+       
         <!-- SCRIPTS -->
         <script type="text/javascript" src="/content/js/jquery-1.12.1.min.js"></script>
         <script type="text/javascript" src="/content/js/modernizr-3.3.1.min.js"></script>
@@ -54,8 +49,9 @@
                                 </td>
                                 <td>
                                     <div id="map">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2628.3084971519574!2d2.441690315178635!3d48.795090513116385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e673363672b631%3A0xf674dbebdbbe5ff9!2s%C3%89cole+Sup%C3%A9rieure+d&#39;Informatique+Appliqu%C3%A9e+%C3%A0+la+Gestion!5e0!3m2!1sfr!2sfr!4v1457381397040" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20563.68153861871!2d3.94732285!3d49.89016305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1649314540053!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </div>
+
                                 </td>
                             </tr>
                         </table>

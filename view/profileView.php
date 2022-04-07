@@ -5,21 +5,14 @@
 
         <!-- META -->
         <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hôtel Hypnos | Accueil</title>
-        <!--[if lt IE 9]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-
+        
         <!-- STYLES -->
         <!-- CSS -->
         <link href="/content/css/main.css" rel="stylesheet" type="text/css" media="screen" />
         <link href="/content/css/account.css" rel="stylesheet" type="text/css" media="screen" />
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <!--[if IE]>
-            <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <![endif]-->
-
         <script type="text/javascript" src="/content/js/jquery-1.12.1.min.js"></script>
         <script type="text/javascript" src="/content/js/modernizr-3.3.1.min.js"></script>
     </head>
@@ -45,7 +38,7 @@
                         <div class="tab-content">
                             <div id="tab1" class="tab active">
                                 <figure class="user-avatar-container">
-                                    <?php echo user_avatar($row['client_idclient'], $row['client_gender']) ?>
+                                    <?php echo user_avatar($row['id'], $row['client_gender']) ?>
                                     <figcaption><?php echo $row['client_firstname']." ".$row['client_lastname']; ?></figcaption>
                                 </figure>
                                 <div class="tab-container">
@@ -53,26 +46,6 @@
                                         <tr>
                                             <td class="user-info-section">Email</td>
                                             <td><?php echo '<a href="mailto:'.$row['client_mail'].'" target="_blank">'.$row['client_mail'].'</a>' ?></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="user-info-section">Adresse</td>
-                                            <td>
-                                                <?php echo $row['client_streetnumber'].", ".htmlspecialchars($row['client_street'], ENT_QUOTES, 'UTF-8', true); ?><br/>
-                                                <?php echo $row['client_zipcode']." ".$row['client_city']; ?><br />
-                                                <?php echo  $row['client_country']; ?>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="user-info-section">Nationalité</td>
-                                            <td>
-                                                <?php echo $row['client_country']; ?>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="user-info-section">Téléphone</td>
-                                            <td>
-                                                <?php echo $row['client_cellphone']; ?>
-                                            </td>
                                         </tr>
                                         <tr>
                                             <td></td>
@@ -95,7 +68,7 @@
                                                 <td class="user-info-section">Avatar</td>
                                                 <td colspan="2">
                                                     <div class="user-avatar-container">
-                                                        <?php echo user_avatar($row['client_idclient'], $row['client_gender']) ?>
+                                                        <?php echo user_avatar($row['id'], $row['client_gender']) ?>
                                                         <input type="file" name="nom" />
                                                     </div>
                                                     <br />
@@ -105,40 +78,6 @@
                                                 <td class="user-info-section">Email</td>
                                                 <td colspan="2">
                                                     <?php echo '<input type="email" id="user-email" name="user_email" value="'.$row['client_mail'].'" placeholder="xyz@example.com" />'; ?>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td rowspan="3" class="user-info-section">Adresse</td>
-                                                <td>
-                                                    <label for="user-street-number">N°</label><br />
-                                                    <?php echo '<input type="number" value="'.$row['client_streetnumber'].'" id="user-street-number" name="user_street_number" />'; ?><br />
-                                                </td>
-                                                <td>
-                                                    <label for="user-street-name">Voie</label><br />
-                                                    <?php echo '<input type="text" value="'.$row['client_street'].'" id="user-street-name" name="user_street_name" />'; ?><br />
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <label for="user-zip-code">Code Postal</label><br />
-                                                    <?php echo '<input type="number" value="'.$row['client_zipcode'].'" id="user-zip-code" name="user_zip_code" />'; ?><br />
-                                                </td>
-                                                <td>
-                                                    <label for="user-city">Ville</label><br />
-                                                    <?php echo '<input type="text" value="'.$row['client_city'].'" id="user-city" name="user_city" />'; ?><br />
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="2">
-                                                    <label for="user-country">Pays</label><br />
-                                                    <?php echo '<input type="text" value="'.$row['client_country'].'" id="user-country" name="user_country" />' ?><br />
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="user-info-section">
-                                                    <label for="user-cellphone">Téléphone</label>
-                                                <td colspan="2">
-                                                    <?php echo '<input type="text" value="'.$row['client_cellphone'].'" id="user-cellphone" name="user_cellphone" />'; ?>
                                                 </td>
                                             </tr>
                                             <tr>
