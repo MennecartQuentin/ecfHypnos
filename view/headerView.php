@@ -1,6 +1,6 @@
 <header>
     <div>
-        <a href="/">
+        <a href="#">
             <h3>Hôtel</h3>
             <h2 id="branding-title--rotate">Les</h2>
             <h1>Hypnos</h1>
