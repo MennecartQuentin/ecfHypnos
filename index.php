@@ -1,79 +1,80 @@
 <!DOCTYPE html>
 
 <html lang="fr">
-    <head>
 
-        <!-- META -->
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hôtel Hypnos | Accueil</title>
+<head>
 
-        <!-- STYLES -->
-        <!-- CSS -->
-        <link href="content/css/main.css" rel="stylesheet" type="text/css" media="screen" />
-        <link href="content/css/home.css" rel="stylesheet" type="text/css" media="screen" />
-        
+    <!-- META -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hôtel Hypnos | Accueil</title>
 
-        <script type="text/javascript" src="content/js/jquery-1.12.1.min.js"></script>
-        <script type="text/javascript" src="content/js/modernizr-3.3.1.min.js"></script>
-    </head>
+    <!-- STYLES -->
+    <!-- CSS -->
+    <link href="/content/css/main.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="/content/css/home.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script type="text/javascript" src="/content/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="/content/js/modernizr-3.3.1.min.js"></script>
+</head>
 
-    <body>
+<body>
 
-        <!-- Wrapper -->
-        <div class="wrapper">
+    <!-- Wrapper -->
+    <div class="wrapper">
 
-            <!-- Header -->
-            <?php include 'view/headerView.php'; ?>
+        <!-- Header -->
+        <?php include 'view/headerView.php'; ?>
 
-            <!-- Content -->
-            <div class="content home">
-                <div class="content-overlay">
-                    <div class="container container-main">
-                        <div class="home-title">
-                        
-                            <h1 id="home-title-hotel">À L'HÔTEL</h1>
-                            <h1 id="home-title-hypnos">HYPNOS</h1>
-                        </div>
-                        <table>
-                            <tr>
-                                <td>
-                                    <div class="card">
-                                        <h2>Une accueil de qualité</h2>
-                                        <p>
-                                            Les Hôtels Hypnos propose 12 chambres, dans 7 établissement à la décoration luxueuse et aux équipements haut de gamme.
-                                        </p>
-                                        <a href="/bedrooms.php"><button class="button-submit">Voir nos chambres</button></a>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="card">
-                                        <h2>Des services premium</h2>
-                                        <p>
-                                            Connexion WiFi gratuite et illimitée depuis votre chambre et tous les espaces communs de l'hôtel, service petit-déjeuner en chambre de 6h30 à 12h... Profitez de services premium durant votre séjour.
-                                        </p>
-                                        <a><button class="button-submit">Voir nos services</button></a>
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="card">
-                                        <h2>Des prix attractifs</h2>
-                                        <p>
-                                            Les Hôtels Hypnos propose des tarifs attractifs, à partir de 150€ la nuit, en plein coeur des villes.
-                                        </p>
-                                        <a href="/booking/stay.php"><button class="button-submit">Consulter nos tarifs</button></a>
-                                    </div>
-                                </td>
-                            </tr>
-                        </table>
+        <!-- Content -->
+        <div class="content home">
+            <div class="content-overlay">
+                <div class="container container-main">
+                    <div class="home-title">
+
+                        <h1 id="home-title-hotel">À L'HÔTEL</h1>
+                        <h1 id="home-title-hypnos">HYPNOS</h1>
                     </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="card">
+                                    <h2>Une accueil de qualité</h2>
+                                    <p>
+                                        Les Hôtels Hypnos propose 12 chambres, dans 7 établissement à la décoration luxueuse et aux équipements haut de gamme.
+                                    </p>
+                                    <a href="/bedrooms.php"><button class="button-submit">Voir nos chambres</button></a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <h2>Des services premium</h2>
+                                    <p>
+                                        Connexion WiFi gratuite et illimitée depuis votre chambre et tous les espaces communs de l'hôtel, service petit-déjeuner en chambre de 6h30 à 12h... Profitez de services premium durant votre séjour.
+                                    </p>
+                                    <a><button class="button-submit">Voir nos services</button></a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="card">
+                                    <h2>Des prix attractifs</h2>
+                                    <p>
+                                        Les Hôtels Hypnos propose des tarifs attractifs, à partir de 150€ la nuit, en plein coeur des villes.
+                                    </p>
+                                    <a href="/booking/stay.php"><button class="button-submit">Consulter nos tarifs</button></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
-
-            <!-- Footer -->
-            <?php include 'view/footerView.php'; ?>
         </div>
-        <script type="text/javascript" src="content/js/script.js"></script>
-    </body>
+
+        <!-- Footer -->
+        <?php include 'view/footerView.php'; ?>
+    </div>
+    <script type="text/javascript" src="content/js/script.js"></script>
+</body>
+
 </html>

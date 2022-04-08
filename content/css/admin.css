@@ -4,7 +4,8 @@
 
 body {
     background-color: #f1f1f1;
-    color: #23282d;;
+    color: #23282d;
+    ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     height: 100%;
@@ -28,7 +29,8 @@ header {
     width: 100%;
 }
 
-header, aside {
+header,
+aside {
     z-index: 1;
 }
 
@@ -104,7 +106,8 @@ table {
     border-collapse: collapse;
 }
 
-table tr, table td {
+table tr,
+table td {
     padding: 10px 30px;
     text-align: center;
 }
@@ -118,7 +121,8 @@ table tbody tr:hover {
     background: white;
 }
 
-span.stars, span.stars span {
+span.stars,
+span.stars span {
     display: block;
     background: url(/content/img/icons/stars.png) 0 -16px repeat-x;
     width: 80px;

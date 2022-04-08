@@ -6,6 +6,7 @@
     height: auto;
 }
 
+
 /* INTRODUCTION SECTION STYLES */
 
 #bedrooms {
@@ -36,6 +37,7 @@
     opacity: 1;
     top: 0;
 }
+
 
 /* Cards properties */
 
@@ -83,6 +85,7 @@
     padding: 5px;
 }
 
+
 /* Cards positioning */
 
 .bedrooms-content-card:first-child {
@@ -94,6 +97,7 @@
     position: absolute;
     right: 0;
 }
+
 
 /* OVERVIEW SECTION STYLES */
 
@@ -110,6 +114,7 @@
     width: 350px;
 }
 
+
 /* Gallery element position */
 
 .bedrooms-content-gallery.left {
@@ -123,6 +128,7 @@
 .bedrooms-content-gallery.right {
     right: 0;
 }
+
 
 /* Gallery animation and effects */
 
@@ -141,7 +147,7 @@
     overflow: hidden;
     top: 0;
     left: 0;
-    background-color: rgba(75,75,75,0.6);
+    background-color: rgba(75, 75, 75, 0.6);
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }

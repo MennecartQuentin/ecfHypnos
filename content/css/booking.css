@@ -16,7 +16,9 @@
     min-height: 1000px;
 }
 
+
 /* */
+
 .booking .container {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -34,7 +36,9 @@
     opacity: 1;
 }
 
+
 /* Center the steps bar */
+
 .booking .steps {
     position: relative;
     margin: auto;
@@ -56,14 +60,18 @@
     color: white;
 }
 
+
 /* Displays array between each step */
+
 .booking .step:after {
     content: url("/content/img/icons/arrow-point-to-right_32px_white.png");
     position: relative;
     margin: 0 30px;
 }
 
+
 /* No array for last step */
+
 .booking .step:last-child:after {
     content: '';
     margin: 0;
@@ -110,7 +118,6 @@
 }
 
 
-
 /*----------------
     DATE FIELDS
 ----------------*/
@@ -119,6 +126,7 @@
 .input-date-departure {
     width: 245px;
 }
+
 
 /*--------------
     SWTICHES
@@ -205,13 +213,14 @@
     transition: all 0.3s ease-in 0s;
 }
 
-.input-switch-checkbox:checked + .input-switch-label .input-switch-inner {
+.input-switch-checkbox:checked+.input-switch-label .input-switch-inner {
     margin-left: 0;
 }
 
-.input-switch-checkbox:checked + .input-switch-label .input-switch-switch {
+.input-switch-checkbox:checked+.input-switch-label .input-switch-switch {
     right: 0;
 }
+
 
 /*------------------
     SUBMIT BUTTON

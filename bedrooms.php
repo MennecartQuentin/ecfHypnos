@@ -11,18 +11,18 @@
 
         <!-- STYLES -->
         <!-- CSS -->
-        <link href="content/css/main.css" rel="stylesheet" type="text/css" media="screen" />
-        <link href="content/css/bedrooms.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="/content/css/main.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="/content/css/bedrooms.css" rel="stylesheet" type="text/css" media="screen" />
         <!-- SCRIPTS -->
         <!-- Libraries -->
-        <script type="text/javascript" src="content/js/jquery-1.12.1.min.js"></script>
-        <script type="text/javascript" src="content/js/modernizr-3.3.1.min.js"></script>
+        <script type="text/javascript" src="/content/js/jquery-1.12.1.min.js"></script>
+        <script type="text/javascript" src="/content/js/modernizr-3.3.1.min.js"></script>
     </head>
     <body>
 
         <!-- Wrapper -->
         <div class="wrapper">
-            <?php include 'view/headerView.php'; ?>
+            <?php include '/view/headerView.php'; ?>
 
             <!-- Content -->
             <div class="content bedrooms">
@@ -65,7 +65,7 @@
                                 <img class="img-responsive" src="/content/img/illustrations/single-room.png" alt="" />
                                 <div class="overlay">
                                     <h2>Chambre simple</h2>
-                                    <a class="info" href="/">Réserver</a>
+                                    <a class="info" href="/booking/stay.php">Réserver</a>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@
                                 <img class="img-responsive" src="/content/img/illustrations/double-room.png" alt="" />
                                 <div class="overlay">
                                     <h2>Chambre double</h2>
-                                    <a class="info" href="/">Réserver</a>
+                                    <a class="info" href="/booking/stay.php">Réserver</a>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                                 <img class="img-responsive" src="/content/img/illustrations/twin-room.jpg" alt="" />
                                 <div class="overlay">
                                     <h2>Chambre twin</h2>
-                                    <a class="info" href="/">Réserver</a>
+                                    <a class="info" href="/booking/stay.php">Réserver</a>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
             </div>
 
             <!-- Footer -->
-            <?php include 'view/footerView.php'; ?>
+            <?php include '/view/footerView.php'; ?>
         </div>
 
         <script type="text/javascript" src="content/js/script.js"></script>

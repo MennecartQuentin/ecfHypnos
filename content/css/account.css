@@ -55,14 +55,20 @@
     max-height: 150px;
 }
 
+
 /*----- Tabs -----*/
+
 .tabs {
     width: 100%;
     display: inline-block;
 }
 
+
 /*----- Tab Links -----*/
+
+
 /* Clearfix */
+
 .tab-links:after {
     display: block;
     clear: both;
@@ -91,16 +97,19 @@
     text-decoration: none;
 }
 
-li.active a, li.active a:hover {
+li.active a,
+li.active a:hover {
     background: #fff;
     color: #4c4c4c;
 }
 
+
 /*----- Content of Tabs -----*/
+
 .tab-content {
     color: #393b45;
     padding: 15px;
-    box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
     background: #fff;
     position: relative;
     top: -17px;
@@ -130,8 +139,6 @@ li.active a, li.active a:hover {
 .tab-container .user-info-section:hover {
     border-right: 2px solid #fb9e08;
 }
-
-
 
 .tab-container .user-avatar-container img {
     -webkit-transition: opacity 0.5s ease 0.1s;

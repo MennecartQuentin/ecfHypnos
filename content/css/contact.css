@@ -2,7 +2,6 @@
     CONTACT PAGE
 ///////////////////*/
 
-
 .content {
     background: url(/content/img/backgrounds/hero_ofc_san-francisco_888-brannan_1500x750_1395083524_1500x750.jpg) fixed no-repeat center;
     background-size: cover;
@@ -17,7 +16,6 @@
     min-height: 500px;
 }
 
-
 .container-main {
     margin: auto;
     position: relative;
@@ -30,7 +28,7 @@
 
 .contact-submitted .container-main {
     color: white;
-    width:  600px;
+    width: 600px;
 }
 
 .contact .container-main table {

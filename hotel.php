@@ -23,7 +23,7 @@
         <div class="wrapper">
 
             <!-- Header -->
-            <?php include 'view/headerView.php'; ?>
+            <?php include '/view/headerView.php'; ?>
 
             <!-- Content -->
             <div class="content hotel">
@@ -38,7 +38,7 @@
             </div>
 
             <!-- Footer -->
-            <?php include 'view/footerView.php'; ?>
+            <?php include '/view/footerView.php'; ?>
         </div>
 
         <script type="text/javascript" src="/content/js/script.js"></script>

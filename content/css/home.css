@@ -33,7 +33,8 @@
     width: 500px;
 }
 
-.home-title h1, h2 {
+.home-title h1,
+h2 {
     margin: 0;
 }
 
